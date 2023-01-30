@@ -10,7 +10,7 @@ from markdownify import markdownify as md
 
 
 def main():
-    base_url = 'http://example.org/'
+    base_url = 'https://blog.mikiri.net/'
     parser = argparse.ArgumentParser()
     parser.add_argument("file", type=str, default="")
     args = parser.parse_args()
