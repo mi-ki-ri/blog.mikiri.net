@@ -1,0 +1,35 @@
+{{ define "main" }} {{ $burl := .Site.BaseURL }} {{ $paginator := .Paginate
+.Site.RegularPages 10 }} {{ with $paginator }}
+<section>
+  {{ range $paginator.Pages }}
+  <article>
+    <h1>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+    <div>{{.Content}}</div>
+    <p class="tags">
+      Tags: {{ range .Params.tags }}
+      <a href="{{ $burl }}tags/{{ lower . }}/"> {{ . }} </a>
+      {{ end }}
+    </p>
+    <p class="date">{{.Date.Format "2006-01-02"}}</p>
+  </article>
+
+  {{ with $paginator.HasPrev }}
+  <p>
+    <a href="{{ $burl }}{{ $paginator.Prev.URL }}">
+      <strong>Prev</strong>
+    </a>
+  </p>
+
+  {{ end }} {{ with $paginator.HasNext }}
+  <p>
+    <a href="{{ $burl }}{{ $paginator.Next.URL }}">
+      <strong>Next</strong>
+    </a>
+  </p>
+
+  {{ end }} {{ end }}
+</section>
+
+{{ end }} {{ end }}
