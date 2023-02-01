@@ -30,8 +30,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: mi-ki-ri/mi-ki-ri.github.io
-          publish_branch: pages
+          publish_branch: main
+          publish_dir: ./docs
           cname: blog.mikiri.net
