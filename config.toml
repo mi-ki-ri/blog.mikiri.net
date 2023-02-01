@@ -1,0 +1,5 @@
+baseURL = 'https://blog.mikiri.net/'
+languageCode = 'ja-jp'
+title = 'blog.mikiri.net'
+theme = "blog_mikiri_net"
+hasCJKLanguage = true
