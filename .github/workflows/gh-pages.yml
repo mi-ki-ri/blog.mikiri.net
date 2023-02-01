@@ -32,5 +32,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.gh-pages }}
           external_repository: mi-ki-ri/mi-ki-ri.github.io
-          publish_branch: main
+          publish_branch: pages
           cname: blog.mikiri.net
