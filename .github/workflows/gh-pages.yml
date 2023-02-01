@@ -33,7 +33,7 @@ jobs:
         with:
           # github_token: ${{ secrets.GITHUB_TOKEN }}
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: mi-ki-ri/mi-ki-ri.github.io
+          external_repository: mi-ki-ri/blog.mikiri.net
           publish_branch: main
           publish_dir: ./docs
           cname: blog.mikiri.net
