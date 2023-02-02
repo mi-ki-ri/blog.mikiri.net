@@ -9,8 +9,7 @@
     <div>{{.Content}}</div>
     <p class="tags">
       Tags: {{ range .Params.tags }}
-      <a href="{{ $burl }}tags/{{ lower . }}/"> {{ . }} </a>
-      {{ end }}
+      <a href="{{ $burl }}tags/{{ lower . }}/">{{ . }}</a>, {{ end }}
     </p>
     <p class="date">{{.Date.Format "2006-01-02"}}</p>
   </article>
