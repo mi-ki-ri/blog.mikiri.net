@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.mikiri.net/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/posts/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/tags/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/tags/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/tags/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/tags/%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%B0%E3%82%BF%E3%82%B0/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/posts/2023-01-30-01/</loc>
+    <lastmod>2023-01-30T21:43:23+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/posts/test/</loc>
+    <lastmod>2023-01-30T20:44:41+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.mikiri.net/categories/</loc>
+  </url>
+</urlset>

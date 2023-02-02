@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on blog.mikiri.net</title>
+    <link>https://blog.mikiri.net/posts/</link>
+    <description>Recent content in Posts on blog.mikiri.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 30 Jan 2023 20:48:31 +0900</lastBuildDate><atom:link href="https://blog.mikiri.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>マークダウン</title>
+      <link>https://blog.mikiri.net/posts/2023-01-30-01/</link>
+      <pubDate>Mon, 30 Jan 2023 20:48:31 +0900</pubDate>
+      
+      <guid>https://blog.mikiri.net/posts/2023-01-30-01/</guid>
+      <description>概要 マークダウン記法によるドキュメントをここに #ハッシュタグも使える予定。 #ハッシュ, #ハッシュタグタグ, タグ ほげほげ 強調 なども。 Google Apple</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://blog.mikiri.net/posts/test/</link>
+      <pubDate>Mon, 30 Jan 2023 20:44:41 +0900</pubDate>
+      
+      <guid>https://blog.mikiri.net/posts/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
