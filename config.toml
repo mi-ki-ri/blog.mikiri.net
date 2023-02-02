@@ -3,3 +3,4 @@ languageCode = 'ja-jp'
 title = 'blog.mikiri.net'
 theme = "blog_mikiri_net"
 hasCJKLanguage = true
+publishDir = "docs"
