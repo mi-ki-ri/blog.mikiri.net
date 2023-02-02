@@ -45,7 +45,8 @@ def main():
         "title": title,
         "date": datetime.datetime.fromtimestamp(os.stat(file_path).st_birthtime).strftime("%Y-%m-%dT%H:%M:%S+09:00"),
         "lastmod": datetime.datetime.fromtimestamp(os.stat(file_path).st_mtime).strftime("%Y-%m-%dT%H:%M:%S+09:00"),
-        "tags": tags
+        "tags": tags,
+        "categories": 'blog',
     }
 
     to_write_txt = ""

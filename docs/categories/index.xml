@@ -5,6 +5,16 @@
     <link>https://blog.mikiri.net/categories/</link>
     <description>Recent content in Categories on blog.mikiri.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://blog.mikiri.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 30 Jan 2023 20:48:31 +0900</lastBuildDate><atom:link href="https://blog.mikiri.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://blog.mikiri.net/categories/blog/</link>
+      <pubDate>Mon, 30 Jan 2023 20:48:31 +0900</pubDate>
+      
+      <guid>https://blog.mikiri.net/categories/blog/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
